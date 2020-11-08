@@ -1,0 +1,21 @@
+.fondo{
+    background-image: url("http://xmple.com/wallpaper/pink-blue-gradient-linear-1920x1080-c2-87cefa-ffb6c1-a-15-f-14.svg");
+}
+.login {
+    padding: 50px;
+    padding-top: 10px;
+    background-color: gray;
+    margin-top: 60px;
+    border-radius: 20px;
+}
+.login img{
+    width: 100%;
+    border-radius: 100%;
+    text-align: center;
+}
+.login h1{
+    text-align: center;
+}
+.negritas{
+    font-weight: bold;
+}

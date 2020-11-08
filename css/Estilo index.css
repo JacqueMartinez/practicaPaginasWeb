@@ -1,0 +1,203 @@
+/*estilo del menuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu*/
+header{
+    padding: 20px;
+    background: #0E002B;
+}
+header h1{
+    color: #ffffff;
+    font-size: 170%;
+    text-transform: uppercase;
+}
+.menu nav ul li a{
+    color: #ffffff;
+    text-decoration: none;   
+    padding:15px;
+    text-decoration: none;
+} 
+nav ul li{
+    font-weight: bold;
+    display: inline;
+    margin: 15px;
+}
+nav ul {
+    text-align: right;
+    list-style: none;
+}
+.menu ul a:hover{
+    background: #24026B;
+    margin: 0%;
+}
+
+
+/*estilo de sliderrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr*/
+.bajar{
+    padding: 30px;
+}
+ul,ol{
+    list-style: none;
+}
+.contenido{
+    width: 100%;
+    position: relative;
+}
+.slider li, ul{
+    width: 100%;
+}
+.slider li{
+    overflow: hidden;
+}
+.slider li img{
+    width: 100%;
+}
+.slider .ventanas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 15px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    z-index: 1;
+}
+
+
+/*Estilo de novedadessssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss*/
+.novedades{
+    padding: 30px;
+}
+.novedades h2, h3{
+    text-align: center
+}
+.novedades p{
+    text-align: justify;
+}
+.novedades img{
+    width: 100%;
+}
+/*estilo de servicioooooooooooooooooooooooo*/
+.servicios h2, h4{
+    text-align: center;
+}
+.servicios img{
+    width: 100%;
+}
+.servicios p{
+    text-align: justify;
+}
+
+/*Estilo nuevooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+.nuevo img{
+    width: 100%;
+}
+.ajuste {
+    width: 100%;
+}
+.nuevo iframe{
+    height: 60%;
+    width: 100%;
+}
+.nuevo p{
+    text-align: justify;
+}
+.segundoparte{
+    padding: 40px;
+}
+
+
+/*Estilo footerrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr*/
+.footer{
+    background-color: #0E002B;
+    text-transform: uppercase;
+    padding: 30px;
+}
+.footer nav ul li a{
+    color: #ffffff;
+    text-decoration: none;   
+    padding:15px;
+    text-decoration: none;
+} 
+.footer nav ul li{
+    font-weight: bold;
+    display: inline;
+    margin: 15px;
+}
+.footer nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+.iconos{
+    text-align: center;
+    padding: 10px;
+
+}
+.iconos i{
+    color: #ffffff;
+    font-size: 150%;
+    margin: 30px;
+}
+
+
+
+/*Estilos para contactosssssssssssssssssssssssss*/
+.mapas{
+    padding: 20px;
+}
+.mapas p {
+    text-align: justify;
+}
+.mapas iframe{
+    width: 100%;
+}
+.ubicacion{
+    color:#243882;
+    padding: 7px;
+}
+.direccion{
+    padding: 30px;
+}
+
+/*pestaña productossssssssssssssssssssssss*/
+.circulo {
+    text-align: center;
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #2D54F1;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    color: white;
+    font-size:250%;
+    margin: 60px auto 30px auto;
+}
+.circulo:hover i {
+    transform: rotate(360deg);
+    transition: all 3s ease-out;
+}
+.circulo i {
+    transition: all 3s ease-in;
+}
+.circulos h2{
+    color: #000000;
+    font-size: 120%;
+    text-transform: uppercase;
+    text-align: center;
+}
+.circulos p{
+    text-align: center;
+}
+
+/*Estilos Foroooooooooooooooooooooooooooooooooooooooo*/
+.foro{
+    padding: 70px;
+}
+.foro img{
+    width: 100%;
+}
